@@ -1,3 +1,9 @@
 #!/usr/bin/python3
-def multiply_by_2(my_dict):
-    return {key: value * 2 for key, value in my_dict.items()}
+
+def multiply_by_2(a_dictionary):
+    new_dic = {}
+
+    for key in a_dictionary:
+        new_dic[key] = a_dictionary[key] * 2
+
+    return new_dic
