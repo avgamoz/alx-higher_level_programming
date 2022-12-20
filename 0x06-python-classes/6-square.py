@@ -14,7 +14,7 @@ class Square:
 
         Args:
             size (int): size of a side of the square
-            position (tuple): positoin of the square in 2D space
+            position (tuple): position of the square in 2D space
 
         Returns:
             None
